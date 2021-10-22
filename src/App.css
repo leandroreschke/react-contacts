@@ -1,38 +1,80 @@
-.App {
+/* Simple CSS built by bare hands, react is the focus of this app */
+
+header a {
+  text-decoration: none;
+  border: 0;
+  background-color:darkgray;
+  color: white;
+  font-size: 18px;
+  padding: 6px 12px;
+  border-radius: 0 0 12px 12px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+button {
+  border: 0;
+  background-color: black;
   color: white;
+  font-size: 18px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  width: 100%;
+  white-space: nowrap;
 }
 
-.App-link {
-  color: #61dafb;
+button:active {
+  background-color:dimgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input {
+  font-size: 16px;
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+}
+
+tbody td {
+  border-top: 1px solid black;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 15px;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@supports not (gap: 1rem) {
+  .row > .col{
+    padding: 0 .5rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
 }
