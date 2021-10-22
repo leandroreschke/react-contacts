@@ -15,5 +15,5 @@ This project was actually based on a pair programming I've had to a company as a
 * b. Can we create a new route for checkout?
 * c. Can we filter the products?
 
-I've added some extra stuff like my own css, a nice ID generator that finds deleted ids that can be available for new contacts and an array of routes.
+I've added some extra stuff like my own css, a nice ID generator that find deleted ids that can be available for new contacts and an array of routes.
  
