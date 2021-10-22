@@ -1,6 +1,6 @@
 # React Contact Book
 
-![app_image](https://github.com/leandroreschke/react-contacts/readme_images/app_image.png)
+![app_image](readme_images/app_image.png)
 
 ## Sumary
 A simple Contact Book App made with React
