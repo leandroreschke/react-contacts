@@ -2,7 +2,7 @@
 
 ![app_image](readme_images/app_image.png)
 
-## Sumary
+## Summary
 A simple Contact Book App made with React
 
 This project was actually based on a pair programming I've had to a company as a front-end developer, but rewrited from the ground up with similar aspects and todo as you can see below:
